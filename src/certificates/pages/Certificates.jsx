@@ -4,7 +4,6 @@ import { useCourse } from "../hooks/useCourse"
 export const Certificates = () => {
 
   const { course, onChangeCourse } = useCourse();
-
   return (
   <section className="certificates">
 

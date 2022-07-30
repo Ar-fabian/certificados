@@ -9,7 +9,7 @@ export const Skills = ({ course }) => {
           return <li key={item} className="skills__item">
             <img 
             className="skills__img"
-            src={ `./assets/logos/${item}.png` }
+            src={ `./src/assets/logos/${item}.png` }
             alt="" />
             <p className="skills__name">{item}</p>
           </li>
