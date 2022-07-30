@@ -1,0 +1,19 @@
+@forward './variables';
+@forward './mediaQueries';
+
+
+//normalize
+@forward './normalize';
+
+
+//common components
+
+
+//components
+@forward '../certificates/components/screen/screen.scss';
+@forward '../certificates/components/skills/skills.scss';
+@forward '../certificates/components/course/course';
+@forward '../certificates/components/menu/menu';
+
+//pages
+@forward '../certificates/pages/certificates';

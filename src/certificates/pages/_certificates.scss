@@ -1,0 +1,9 @@
+.certificates{
+    height: 100vh;
+    overflow-y: auto;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    align-items: flex-end;
+    gap: 30px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.course{
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    grid-template-rows: repeat(3, min-content);
+}
