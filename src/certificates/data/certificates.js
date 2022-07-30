@@ -8,7 +8,7 @@ export const certificates = [
     {
         'course':'css-grid',
         'platform':'platzi',
-        'knowledge':[ 'css-grid'],
+        'knowledge':[ 'grid'],
         'finished': 2019
     },
     {
