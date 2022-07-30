@@ -13,7 +13,7 @@ export const Menu = ( { onChangeCourse } ) => {
           className="menu__card">
             <img 
             className="menu__img"
-            src={`/img/${certificate.course}.jpg`}
+            src={`img/${certificate.course}.jpg`}
             alt="" />
           </div>
         ))
