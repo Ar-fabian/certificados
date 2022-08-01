@@ -4,7 +4,9 @@ import {motion, AnimatePresence} from 'framer-motion'
 export const Skills = ({ course }) => {
   const { knowledge } = course;
   return (<>
-    <h1 className="skills__title">Acquired Knowledge</h1>
+    <div className='skills__description'>
+      <h1 className="skills__title">Acquired Knowledge</h1>
+    </div>
     <ul className="skills__list">
     <AnimatePresence exitBeforeEnter>
       {
@@ -18,7 +20,7 @@ export const Skills = ({ course }) => {
             <motion.img 
             className="skills__img"
             src={ `logos/${item}.png` }
-            alt="" />
+            alt={ item } />
             <p className="skills__name">{item}</p>
           </motion.li>
         ))

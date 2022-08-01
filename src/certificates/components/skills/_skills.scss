@@ -1,11 +1,17 @@
 @use '../../../styles/variables';
 
 .skills{
+    &__description{
+        width: 100%;
+        max-width: 550px;
+        text-align: center;
+    }
     &__title{
         font-size: var(--title-size);
     }
     &__list{
         width: 100%;
+        max-width: 550px;
         padding: 0 5%;
         display: flex;
         flex-wrap: wrap;
@@ -13,9 +19,9 @@
         box-sizing: border-box;
     }
     &__item{
-        width: max-content;
+        width: 17%;
         min-width: 30px;
-        max-width: 60px;
+        max-width: 55px;
         margin: 5px;
         padding: 5px 10px;
         border-radius: var(--border-radius);
@@ -29,10 +35,27 @@
     }
     &__img{
         width: 80%;
+        filter: brightness(110%);
     }
     &__name{
         margin: 0px 5px;
         color: var(--text-color);
         font-size: var(--text-size);
     }
+}
+@mixin desktop-skills{
+    .skills{
+        &__title{
+            font-size: var(--title-size-big);
+        }
+        &__item{
+            width: 20%;
+            min-width: 30px;
+            max-width: 65px;
+        }
+        &__name{
+            font-size: var(--text-size-big);
+        }
+    }
+    
 }

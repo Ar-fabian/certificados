@@ -7,8 +7,8 @@ export const Menu = ( { onChangeCourse } ) => {
 
   const [selected, setSelected] = useState('')
   return (
-      <div className="container">
-        <nav className="menu">
+      <div className="menu">
+        <nav className="menu__content">
         {
           certificates.map( certificate =>(
             <motion.div 

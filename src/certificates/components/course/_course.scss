@@ -4,3 +4,11 @@
     justify-items: center;
     grid-template-rows: repeat(3, min-content);
 }
+@mixin desktop-course {
+    .course{
+        height: 100%;
+        padding-left: 7px;
+        align-content: center;
+        justify-items: right;
+    }
+}

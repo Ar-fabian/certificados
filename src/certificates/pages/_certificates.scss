@@ -7,3 +7,15 @@
     gap: 18px;
     box-sizing: border-box;
 }
+
+@mixin desktop-certificates{
+    .certificates{
+        grid-template-columns: 1.12fr 0.88fr;
+        grid-template-rows: 1fr ;
+        align-items: center;
+        background-image: url(../svg/vector2.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        gap: 15px;
+    }
+}

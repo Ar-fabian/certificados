@@ -1,2 +1,14 @@
 @use './variables.scss';
+@use '../certificates/pages/certificates' as layout;
+@use '../certificates/components/course/course' as course;
+@use '../certificates/components/screen/screen' as screen;
+@use '../certificates/components/skills/skills' as skills;
+@use '../certificates/components/menu/menu' as menu;
 
+@media screen and ( min-width: 550px) {
+    @include layout.desktop-certificates;
+    @include course.desktop-course;
+    @include screen.desktop-screen;
+    @include skills.desktop-skills;
+    @include menu.desktop-menu;
+}

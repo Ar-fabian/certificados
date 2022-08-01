@@ -9,8 +9,16 @@
 
 
 
-    --title-size: clamp(.9rem, 5.7vw, 2.5rem);
-    --text-size: clamp(.5rem, 4.5vw, 1rem);
+    --title-size: clamp(.9rem, 5.7vw, 2rem);
+    --text-size: clamp(.8rem, 3vw, 0.95rem);
+    
+    --title-size-big: clamp(1.5rem, 4.3vw, 2.2rem);
+    --text-size-big: clamp(.9rem, 2.7vw, 1.05rem);
+
+
 
     --box-shadow: 4px 4px 8px 0px rgba(49, 48, 48, .4);
+
+
+
 }
