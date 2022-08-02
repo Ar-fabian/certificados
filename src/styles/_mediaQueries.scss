@@ -5,7 +5,7 @@
 @use '../certificates/components/skills/skills' as skills;
 @use '../certificates/components/menu/menu' as menu;
 
-@media screen and ( min-width: 550px) {
+@media screen and ( min-width: 34.37em) {
     @include layout.desktop-certificates;
     @include course.desktop-course;
     @include screen.desktop-screen;
